@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe_search/recipe_detail_page.dart';
 import 'package:recipe_search/recipe_page_ui.dart';
 
 void main() {
@@ -26,8 +27,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         canvasColor: Colors.white,
       ),
-      home: const RecipePage(),
+      home: const RecipeDetailPage(),
     );
   }
 }
-

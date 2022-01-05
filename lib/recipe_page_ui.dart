@@ -10,7 +10,7 @@ class RecipePage extends StatelessWidget {
     double scrWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('위암'),
+        title: const Center(child: Text('위암')),
       ),
       body: SingleChildScrollView(
         child: Padding(
